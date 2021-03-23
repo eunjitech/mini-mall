@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root{
+    --white-color: rgb(254, 250, 250);
+    --black-color: #222;
+    --pink-color: rgb(255, 134, 134);
+}
+.blue{color: rgb(54, 114, 242)}
+.yellow{color: yellow}
+.pink{color: pink}
+.emogi{font-size: 2rem}
+
+ul, li{list-style: none;}
+*{margin: 0; padding: 0; font-family: 'Roboto', sans-serif;}
+a{text-decoration: none; color: var(--black-color)}
+body{background-color: rgb(41, 42, 45) }
+header{width: 100%; height: 100px; background-color: rgb(230, 223, 127); color: #222}
+h1{font-size: 3rem; text-align: center; line-height: 100px; width: 500px; margin: 0 auto;}
+.shopping_list{display: flex; justify-content: center; width: 500px; margin: 0 auto;}
+.shopping_list li{font-size: 1.4rem; width: 100px; text-align: center; padding: 40px 0; }
+.shopping_list li a{vertical-align: sub; font-weight: 300; }
+.shopping_list li a:hover{text-shadow: 0 0 5px #fff}
+.shopping_list li img{width: 50px; height: 50px }
+.shopping_box{width: 500px; min-height: 500px; height: 500px;  margin: 0 auto; overflow-y: scroll;}
+.shopping_box li{width: 100%; height: 50px; font-size: 1.3rem; background-color: var(--white-color); margin-bottom: 10px;padding: 3px; box-sizing: border-box; display: flex; align-items: center;}
+.shopping_box img{width: 40px; height: 40px;}
+.shopping_box span{margin-left: 10px}
